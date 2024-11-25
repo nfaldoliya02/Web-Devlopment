@@ -1,0 +1,281 @@
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    background-color: #d2d5bf;
+}
+    
+#Home img{
+    width: 200px;
+    align-self: start;
+}
+#Home h1{
+    font-size: 5em;
+    margin: 0%;
+}
+#Home{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:720px) {
+    #Home img{
+        width: 150px;
+    }
+    #Home h1{
+        font-size: 4em;
+    }
+}
+
+@media (max-width:540px) {
+    #Home img{
+        width: 130px;
+    }
+    #Home h1{
+        font-size: 3.5em;
+    }
+}
+@media (max-width:480px) {
+    #Home img{
+        width: 90px;
+    }
+    #Home h1{
+        font-size: 2.8em;
+    }
+}
+@media (max-width:370px) {
+    #Home img{
+        width: 70px;
+    }
+    #Home h1{
+        font-size: 2.5em;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffec9b;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+nav li{
+    list-style-type: none;
+}
+nav li a{
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reservation{
+    border: 2px double black;
+    margin-top: 1%;
+}
+form label{
+    width: 15%;
+    text-align: center;
+}
+#A1001{
+    text-align: center;
+    font-size: 2em;
+    padding: 0%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#A1002{
+    display: flex;
+    flex-direction: column;
+}
+#A1{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#A2{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#A3{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#A4{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#A5{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+#name{
+    margin: auto;
+    width: 50%;
+}
+#email{
+    margin: auto;
+    width: 50%;
+}
+#date{
+    margin: auto;
+    width: 50%;
+}
+#time{
+    margin: auto;
+    width: 50%;
+}
+
+.C103{
+    border-radius: 10px;
+    width: 20%;
+    background-color: #f1d2d2;
+}
+
+#menu{
+    border: 2px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+#menu h2{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    background-color: #eef7d1;
+    color: #2d2b2b;
+}
+
+.feedback{
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+#A3001{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#A3002{
+    display: flex;
+    flex-direction: column;
+}
+#B1{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B2{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B3{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B4{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B5{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B6{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    padding: 2px;
+}
+#B7{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+#name{
+    margin: auto;
+    width: 50%;
+}
+#email{
+    margin: auto;
+    width: 50%;
+}
+#sug{
+    margin: auto;
+    width: 50%;
+}
+.C303{
+    border-radius: 10px;
+    width: 20%;
+    background-color: #f1d2d2;
+}
+
+#B3 p, #B4 p, #B5 p{
+    margin: 0%;
+    padding: 0%;
+    width: 25%;
+    text-align: start;
+    padding-left: 2%;
+}
+
+#info{
+    border: 2px solid black;
+    margin-top: 5px;
+}
